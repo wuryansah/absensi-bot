@@ -1,0 +1,17 @@
+{
+  "name": "absensi-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot Telegram pemantau absensi karyawan dari database ZKTeco (SQL Server)",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mssql": "^12.5.2"
+  }
+}

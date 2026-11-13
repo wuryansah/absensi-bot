@@ -1,0 +1,22 @@
+node_modules/
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Backups of secrets and source
+*.bak-*
+*.bak
+*.orig
+
+# Runtime state and logs
+*.log
+nohup.out
+.bot.pid
+logs/
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
