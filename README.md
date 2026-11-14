@@ -67,9 +67,7 @@ DB_PASSWORD=...
 DB_NAME=attendance_db
 
 TG_TOKEN=...
-TG_NOTIFY_TOKEN=...     # token bot pengirim notifikasi log akses
-TG_NOTIFY_CHAT=...      # chat ID penerima notifikasi
-TG_CHAT_NAMES=...       # chatId=nama, untuk nama tampilan di notifikasi
+
 ALLOWED_CHATS=          # kosong = semua chat; isi chat id dipisah koma untuk membatasi
 DEPT_HEADS=             # chatId=nama departemen; dept head hanya melihat departemennya
 EXCLUDE_DEPARTMENTS=    # kosong = hitung semua; contoh: FORMER STAFF
